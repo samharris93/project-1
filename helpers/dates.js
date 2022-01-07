@@ -13,6 +13,9 @@ export const nonCourseDays = [
   new Date('31 December 2021, 09:00').toISOString()
 ]
 
+
+// Added a comment!!
+
 export const addDateMethods = (bankHolidays) => {
   // updates a date to a day later & endOfDay
   Date.prototype.addDay = function(){
